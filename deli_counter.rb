@@ -15,11 +15,11 @@ line(katz_deli, "Grace")
 line(katz_deli, "Kent")
 
 def take_a_number(katz_deli, name)
-  count = 0
+  counter = 0
   while count <= katz_deli.length 
-  puts "Welcome, #{name}. You are number #{katz_deli[count]} in line."
+  puts "Welcome, #{name}. You are number #{katz_deli[counter]} in line."
   katz_deli.push(name)
-  count += 1
+  counter += 1
   break
 end
 end
